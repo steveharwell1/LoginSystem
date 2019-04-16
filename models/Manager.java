@@ -14,7 +14,7 @@ public class Manager extends User {
 	 * @param email
 	 * @throws NonUniqueException
 	 */
-	public Manager(String name, String email) throws NonUniqueException {
+	Manager(String name, String email) throws NonUniqueException {
 		super(name, email);
 	}
 

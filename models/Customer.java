@@ -14,7 +14,7 @@ public class Customer extends User {
 	 * @param email
 	 * @throws NonUniqueException
 	 */
-	public Customer(String name, String email) throws NonUniqueException {
+	Customer(String name, String email) throws NonUniqueException {
 		super(name, email);
 	}
 

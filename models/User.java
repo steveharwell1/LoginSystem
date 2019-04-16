@@ -15,7 +15,7 @@ public abstract class User implements Model {
 	private String name;
 	private String email;
 
-	protected User(String name, String email) throws NonUniqueException {
+	User(String name, String email) throws NonUniqueException {
 		for (User user : users) {
 			if (user.getPrimaryKey().equals(email)) {
 				throw new NonUniqueException();

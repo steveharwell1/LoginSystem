@@ -14,7 +14,7 @@ public class Employee extends User {
 	 * @param email
 	 * @throws NonUniqueException
 	 */
-	public Employee(String name, String email) throws NonUniqueException {
+	Employee(String name, String email) throws NonUniqueException {
 		super(name, email);
 	}
 
